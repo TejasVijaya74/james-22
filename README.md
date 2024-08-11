@@ -6,3 +6,25 @@ james-22
 ├── requirements.txt
 └── templates
     └── index.html
+
+Create a virtual environment (optional but recommended):
+Copypython -m venv venv
+
+Activate the virtual environment:
+
+On Windows:
+Copy.\venv\Scripts\activate
+
+On macOS/Linux:
+Copysource venv/bin/activate
+
+
+
+Install required packages:
+Copypip install flask pyttsx3 SpeechRecognition wikipedia
+
+Create a requirements file:
+Copypip freeze > requirements.txt
+
+Run your Flask application:
+Copypython app.py
